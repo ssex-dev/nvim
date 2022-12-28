@@ -1,0 +1,7 @@
+vim.cmd "let g:vimspector_enable_mappings = 'HUMAN'"
+vim.cmd "nmap <leader>DD :call vimspector#Launch()<CR>"
+vim.cmd "nmap <leader>DR :VimspectorReset<CR>"
+vim.cmd "nmap <leader>DE :VimspectorEval"
+vim.cmd "nmap <leader>DW :VimspectorWatch"
+vim.cmd "nmap <leader>DO :VimspectorShowOutput"
+vim.cmd "let g:vimspector_install_gadgets = [ 'debugpy', 'vscode-go', 'CodeLLDB' ]"
